@@ -2,8 +2,8 @@
 //  WhatsAppPod.h
 //  WhatsAppPod
 //
-//  Created by AloneMonkey on 2017/9/19.
-//  Copyright © 2017年 AloneMonkey. All rights reserved.
+//  Created by monkey on 2017/10/11.
+//  Copyright © 2017年 Coder. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

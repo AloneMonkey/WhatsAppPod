@@ -59,7 +59,7 @@ CHOptimizedMethod1(self, void, WAChatDataStore, didUpdateMessage, WAMessage*, me
     WAChatSession* chatSession = [message chatSession];
     
     WAChatStorage* storage = [(Class)objc_getClass("WASharedAppData") chatStorage];
-
+    
     if(fromJID && chatSession && messageStatus == 10){
         [storage sendMessageWithText:text metadata:nil toChatSessions:@[chatSession] hasTextFromURL:NO];
     }
@@ -72,3 +72,4 @@ CHConstructor{
     CHLoadLateClass(WAChatDataStore);
     CHClassHook1(WAChatDataStore, didUpdateMessage);
 }
+
